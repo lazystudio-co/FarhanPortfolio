@@ -1,18 +1,76 @@
-# React + Vite
+# FarhanPortfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
+- Clean, professional design
+- Responsive layout for all devices
+- Projects showcase
+- About and contact sections
+- Easy to customize
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting Started
 
-## React Compiler
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm or yarn
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Installation
+1. Clone the repository:
+	```sh
+	git clone https://github.com/lazystudio-co/FarhanPortfolio.git
+	```
+2. Navigate to the project directory:
+	```sh
+	cd farhan-portfolio
+	```
+3. Install dependencies:
+	```sh
+	npm install
+	# or
+	yarn install
+	```
 
-Note: This will impact Vite dev & build performances.
+### Running Locally
+Start the development server:
+```sh
+npm run dev
+# or
+yarn dev
+```
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
-## Expanding the ESLint configuration
+### Building for Production
+To create a production build:
+```sh
+npm run build
+# or
+yarn build
+```
+The output will be in the `dist` folder.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Folder Structure
+```
+farhan-portfolio/
+  public/           # Static assets
+  src/              # Source code
+	 assets/         # Images and icons
+	 components/     # Reusable components
+	 pages/          # Page components
+	 App.jsx         # Main app component
+	 main.jsx        # Entry point
+  package.json      # Project metadata and scripts
+  vite.config.js    # Vite configuration
+```
+
+## Customization
+- Update content in `src/pages/` and `src/components/` as needed.
+- Replace images in `src/assets/` and `public/`.
+- Modify styles in `src/App.css` and `src/index.css`.
+
+## License
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Feel free to use and modify this portfolio for your own projects!
