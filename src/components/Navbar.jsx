@@ -8,7 +8,7 @@ export default function Navbar() {
           href="#"
           className="text-xl font-[Playfair_Display,serif] tracking-wide text-[#f5f5f0] hover:text-[#c9a84c] duration-400 ease-in-out "
         >
-          A. WRIGHT
+          Portfolio
         </a>
 
         <div className="flex gap-10">
