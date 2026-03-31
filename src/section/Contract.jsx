@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="bg-[#0a0a0a] w-full min-h-[500px] py-24 flex items-center justify-start font-[Playfair_Display,serif]">
+    <section id="contact" className="bg-[#0a0a0a] w-full min-h-[500px] py-24 flex items-center justify-start font-[Playfair_Display,serif]">
       <div className="w-full px-6 sm:px-12 lg:px-24 xl:pl-[400px] flex flex-col md:flex-row gap-8 lg:gap-16">
         {/* Section Title with decorative line */}
         <div className="flex flex-row md:flex-col gap-4 items-center md:items-start min-w-[200px] shrink-0">
