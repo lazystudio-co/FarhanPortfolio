@@ -1,8 +1,10 @@
 import Home from "./pages/Home";
+import CustomCursor from "./components/CustomCursor";
 
 function App() {
   return (
     <>
+      <CustomCursor />
       <Home />
     </>
   );

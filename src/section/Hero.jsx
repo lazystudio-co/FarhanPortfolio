@@ -1,5 +1,3 @@
-import React from "react";
-
 const Hero = () => {
   return (
     // Added 'relative' here in case you want the full-width bottom bar
@@ -12,7 +10,6 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl lg:text-[80px] text-[#f5f5f0] leading-tight">
           Farhan Irtiza
         </h1>
-
         <p className="text-base md:text-lg text-[#f5f5f0]/90 max-w-2xl italic">
           "Driving sustainable corporate growth through data-backed strategy,
           operational rigor, and principled leadership."
